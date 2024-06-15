@@ -433,6 +433,7 @@ var (
 		"prebuilts/sdk/tools":/* recursive = */ false,
 		"prebuilts/r8":/* recursive = */ false,
 		"prebuilts/runtime":/* recursive = */ false,
+		"vendor/lineage-priv/keys":/* recursive = */ false,
 
 		// not recursive due to conflicting workspace paths in tools/atest/bazel/rules
 		"tools/asuite/atest":/* recursive = */ false,
